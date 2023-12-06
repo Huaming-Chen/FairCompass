@@ -1,0 +1,46 @@
+{
+  "name": "FairCompass",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://poloclub.github.io/FairCompass",
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "@material-ui/lab": "^3.0.0-alpha.30",
+    "d3": "^5.9.1",
+    "d3-tip": "^0.9.1",
+    "modern-screenshot": "^4.4.34",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.5",
+    "react-ga": "^2.6.0",
+    "react-icons": "^3.7.0",
+    "react-scripts": "^3.1.1",
+    "react-select": "^2.4.2",
+    "react-split-pane": "^0.1.92",
+    "react-vega-lite": "^2.0.2",
+    "recharts": "^2.6.2",
+    "typescript": "^3.4.4",
+    "vega-lib": "^4.4.0",
+    "vega-lite": "^2.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run-script build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
